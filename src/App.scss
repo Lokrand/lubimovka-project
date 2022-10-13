@@ -1,8 +1,4 @@
-$color-bg-page : #ECEBE8;
-$color-bg-accent : #B7C09D;
-$color-text-black : #242424;
-$color-white : #fff;
-
+@import './styles/constants.scss';
 h1 {
   color: $color-text-black;
   margin: 0;
