@@ -1,19 +1,20 @@
 import { Performance } from "../Performance/Performance";
-import styles from './Performances.module.scss';
+import styles from "./Performances.module.scss";
 import { performances } from "../../utils/constants";
 export const Performances = () => {
-  console.log(performances)
+  console.log(performances);
   return (
     <div>
-      <h2 className={styles.title}>Заголовок блока с тремя и более спектаклями</h2>
+      <h2 className={styles.title}>
+        Заголовок блока с тремя и более спектаклями
+      </h2>
       <div className={styles.block}>
         {performances.map((el) => {
           return (
-          <div key ={el.index}>
-            <Performance props={el}/>
-          </div>
-
-          )
+            <div key={el.index}>
+              <Performance props={el} />
+            </div>
+          );
         })}
       </div>
     </div>
