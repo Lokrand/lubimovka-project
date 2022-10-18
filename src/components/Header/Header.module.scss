@@ -1,3 +1,10 @@
+@import '../../styles/constants.scss';
+
 .header {
-    display: flex;
+  width: 100%;  
+  display: flex;
+  padding: 0 0 0 30px;
+  gap: 30px;
+  border-bottom: 1px solid $color-text-black;
+  box-sizing: border-box;
 }

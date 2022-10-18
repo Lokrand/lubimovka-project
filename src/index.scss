@@ -1,6 +1,8 @@
-@import url(./vendor/normalize.scss);
+@import './vendor/normalize.scss';
+@import './styles/constants.scss';
 
 body {
+  background-color: $color-bg-page;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
