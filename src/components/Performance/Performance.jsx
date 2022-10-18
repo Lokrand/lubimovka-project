@@ -1,3 +1,5 @@
+import styles from './Performance.module.scss';
+
 export const Performance = () => {
   <div>
     <img src="" alt="" />
