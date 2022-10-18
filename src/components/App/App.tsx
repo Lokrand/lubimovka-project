@@ -1,16 +1,19 @@
-import './App.module.scss';
-import { Performances } from '../Performances/Performances';
+import "./App.module.scss";
+import { Performances } from "../Performances/Performances";
 import Videos from "../Videos/Videos";
-import Header from '../Header/Header';
-
+import Header from "../Header/Header";
+import { Persons } from "../Persons/Persons";
+import { Pieces } from "../Pieces/Pieces";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <main>
+        <Videos />
         <Performances />
-          <Videos/>
+        <Pieces />
+        <Persons />
       </main>
     </>
   );
