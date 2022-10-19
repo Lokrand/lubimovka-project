@@ -42,11 +42,13 @@
 }
 .buttons {
   display: flex;
-  width: 154px;
   flex-direction: column;
   row-gap: 16px;
+  margin-left: 151px;
 }
 .button {
+  width: 154px;
+  position: relative;
   background: none;
   border: none;
   border-bottom: 1px solid $color-text-black;
@@ -54,9 +56,68 @@
   padding: 0;
   text-align: start;
   font: 300 16px/14px "Formular", sans-serif;
-  transition: opacity 0.2s linear;
+  transition: all 0.2s linear;
+  padding: 10px 0;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $color-text-black;
+    transition: all .3s;
+    z-index: -1;
+  }
+  &:hover {
+    color: $color-white;
+    scale: 1.1;
+    cursor: pointer;
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
-.button:hover {
-  opacity: 0.6;
+.arrow {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 989px) {
+  .image {
+    width: 92px;
+    height: 123px;
+  }
+  .buttons {
+    flex-direction: row;
+    margin: 40px 0 0 24px;
+    column-gap: 27px;
+  }
+  .read {
+    margin-bottom: 0;
+  }
+  .title {
+    margin: 16px 0 8px;
+  }
+  .directors {
+    margin: 0 0 8px;
+  }
+  .block {
+    column-gap: 29px;
+    width: 377px;
+    padding: 0 14px 0 24px;
+  }
+  .data_block {
+    column-gap: 46px;
+    margin: 0;
+  }
 }
