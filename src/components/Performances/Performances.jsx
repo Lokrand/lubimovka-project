@@ -11,7 +11,7 @@ export const Performances = () => {
       <div className={styles.block}>
         {performances.map((el) => {
           return (
-            <div key={el.index}>
+            <div key={el.index} className={styles.items}>
               <Performance props={el} />
             </div>
           );

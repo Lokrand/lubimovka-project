@@ -1,6 +1,9 @@
 import styles from "./Performance.module.scss";
 
 export const Performance = ({ props }) => {
+  const blackArrow = require("../../images/Arrow_for_button.svg").default;
+  
+
   return (
     <div className={styles.block}>
       <img
@@ -18,9 +21,21 @@ export const Performance = ({ props }) => {
         <p className={styles.read}>читка проекта Любимовка.Ещё</p>
         <div className={styles.buttons}>
           <button className={styles.button}>
+            <img
+              src={blackArrow}
+              alt="Стрелка"
+              className={styles.arrow}
+            />
             О СПЕКТАКЛЕ
           </button>
-          <button className={styles.button}>БИЛЕТЫ</button>
+          <button className={styles.button}>
+            <img
+              src={require("../../images/Arrow_for_button.svg").default}
+              alt="Стрелка"
+              className={styles.arrow}
+            />
+            БИЛЕТЫ
+          </button>
         </div>
       </div>
     </div>
