@@ -2,7 +2,7 @@
 
 .block {
   display: flex;
-  max-width: 1378px;
+  width: 1440px;
   margin: 0 auto;
   justify-content: center;
   column-gap: 30px;
@@ -12,7 +12,8 @@
 
 .title {
   width: 568px;
-  margin: 122px 0 75px 362px;
+  margin: 122px auto 75px;
+  padding-right: 148px;
   font: 400 40px/40px "Neue Machina", "Inter", "sans-serif";
 }
 
@@ -26,7 +27,10 @@
 }
 
 
-@media screen and (max-width: 1391px) {
+@media screen and (max-width: 1439px) {
+  .block {
+    width: 930px;
+  }
   .items:nth-child(2) {
     border-right: none;
   }
@@ -34,8 +38,14 @@
 
 @media screen and (max-width: 989px) {
   .block {
-    max-width: 415px;
+    width: 415px;
     flex-direction: column;
+  }
+  .title {
+    width: 369px;
+    padding: 0;
+    margin: 100px auto 34px;
+    font: 400 28px/32px "Neue Machina", "Inter", "sans-serif";
   }
   .items {
     max-width: 415px;
