@@ -1,4 +1,4 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
 .link {
   text-decoration: none;
@@ -30,7 +30,7 @@
   visibility: hidden;
   border-right: 0;
   border-bottom-left-radius: 200% 100%;
-  border-top-left-radius: 200% 100%;  
+  border-top-left-radius: 200% 100%;
 }
 
 .link:hover::after {

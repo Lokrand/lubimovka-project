@@ -1,4 +1,4 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
 .block {
   display: flex;
@@ -54,10 +54,9 @@
   padding: 0;
   text-align: start;
   font: 300 16px/14px "Formular", sans-serif;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .button:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
-

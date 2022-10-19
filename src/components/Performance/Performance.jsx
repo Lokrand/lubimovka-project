@@ -17,9 +17,7 @@ export const Performance = ({ props }) => {
         <p className={styles.directors}>{props.directors}</p>
         <p className={styles.read}>читка проекта Любимовка.Ещё</p>
         <div className={styles.buttons}>
-          <button className={styles.button}>
-            О СПЕКТАКЛЕ
-          </button>
+          <button className={styles.button}>О СПЕКТАКЛЕ</button>
           <button className={styles.button}>БИЛЕТЫ</button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import styles from './Piece.module.scss';
+import styles from "./Piece.module.scss";
 
 export const Piece = ({ props }) => {
   return (

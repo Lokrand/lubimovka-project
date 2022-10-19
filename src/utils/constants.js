@@ -54,7 +54,8 @@ export const pieces = [
 
 export const persons = [
   {
-    image: "https://yt3.ggpht.com/a/AATXAJxOYIsqb29_piexa72FT0JTuI0WgZ7hi7qL1A=s900-c-k-c0xffffffff-no-rj-mo",
+    image:
+      "https://yt3.ggpht.com/a/AATXAJxOYIsqb29_piexa72FT0JTuI0WgZ7hi7qL1A=s900-c-k-c0xffffffff-no-rj-mo",
     name: "Тереза Шимчак",
     job: "Драматург, сценарист, преподаватель",
   },
@@ -64,12 +65,14 @@ export const persons = [
     job: "Драматург, сценарист, преподаватель",
   },
   {
-    image: "https://galeri12.uludagsozluk.com/503/sozluk-yazarlarinin-fotograflari_918619.jpg",
+    image:
+      "https://galeri12.uludagsozluk.com/503/sozluk-yazarlarinin-fotograflari_918619.jpg",
     name: "Тереза Шимчак",
     job: "Драматург, сценарист, преподаватель",
   },
   {
-    image: "https://assets.media-platform.com/gizmodo/dist/images/2015/10/151030internet_cats01-w1280.jpg",
+    image:
+      "https://assets.media-platform.com/gizmodo/dist/images/2015/10/151030internet_cats01-w1280.jpg",
     name: "Тереза Шимчак",
     job: "Драматург, сценарист, преподаватель",
   },

@@ -1,16 +1,23 @@
-@import '../../styles/constants.scss';
-@import '../../vendor/fonts/fonts.scss';
-@import '../../vendor/normalize.scss';
+@import "../../styles/constants.scss";
+@import "../../vendor/fonts/fonts.scss";
+@import "../../vendor/normalize.scss";
 
-h1,h2,h3,h4,p {
+h1,
+h2,
+h3,
+h4,
+p {
   color: $color-text-black;
   margin: 0;
 }
 p {
-  font-family: 'Formular', sans-serif;
+  font-family: "Formular", sans-serif;
 }
-h1,h2,h3,h4 {
-  font-family: 'Neue Machina', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Neue Machina", sans-serif;
 }
 
 main {

@@ -5,18 +5,17 @@ function Navigation() {
   return (
     <nav>
       <ul className={styles.list}>
-        <Tab href={'#'} text={'Афиша'}/>
-        <Tab href={'#'} text={'Библиотека'}/>
-        <Tab href={'#'} text={'Проекты'}/>
-        <Tab href={'#'} text={'История'}/>
-        <Tab href={'#'} text={'Блог'}/>
-        <Tab href={'#'} text={'Новости'}/>
-        <Tab href={'#'} text={'О фестивале'}/>
-        <Tab href={'#'} text={'Контакты'}/>
+        <Tab href={"#"} text={"Афиша"} />
+        <Tab href={"#"} text={"Библиотека"} />
+        <Tab href={"#"} text={"Проекты"} />
+        <Tab href={"#"} text={"История"} />
+        <Tab href={"#"} text={"Блог"} />
+        <Tab href={"#"} text={"Новости"} />
+        <Tab href={"#"} text={"О фестивале"} />
+        <Tab href={"#"} text={"Контакты"} />
       </ul>
     </nav>
-  )
+  );
 }
 
-
-export default Navigation
+export default Navigation;
