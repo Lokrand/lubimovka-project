@@ -42,11 +42,12 @@
 }
 .buttons {
   display: flex;
-  width: 154px;
   flex-direction: column;
   row-gap: 16px;
+  margin-left: 151px;
 }
 .button {
+  width: 154px;
   position: relative;
   background: none;
   border: none;
@@ -78,7 +79,7 @@
     z-index: -1;
   }
   &:hover {
-    color: #fff;
+    color: $color-white;
     scale: 1.1;
     cursor: pointer;
     &:before {
@@ -89,4 +90,34 @@
 
 .arrow {
   margin-right: 8px;
+}
+
+@media screen and (max-width: 989px) {
+  .image {
+    width: 92px;
+    height: 123px;
+  }
+  .buttons {
+    flex-direction: row;
+    margin: 40px 0 0 24px;
+    column-gap: 27px;
+  }
+  .read {
+    margin-bottom: 0;
+  }
+  .title {
+    margin: 16px 0 8px;
+  }
+  .directors {
+    margin: 0 0 8px;
+  }
+  .block {
+    column-gap: 29px;
+    width: 377px;
+    padding: 0 14px 0 24px;
+  }
+  .data_block {
+    column-gap: 46px;
+    margin: 0;
+  }
 }

@@ -4,7 +4,10 @@
   display: flex;
   max-width: 1378px;
   margin: 0 auto;
+  justify-content: center;
   column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
 
 .title {
@@ -16,9 +19,32 @@
 .items {
   border-right: 1px solid $color-text-black;
   padding-right: 28px;
+  &:last-child {
+    border-right: none;
+    padding: 0;
+  }
 }
 
-.items:last-child {
-  border-right: none;
-  padding: 0;
+
+@media screen and (max-width: 1391px) {
+  .items:nth-child(2) {
+    border-right: none;
+  }
 }
+
+@media screen and (max-width: 989px) {
+  .block {
+    max-width: 415px;
+    flex-direction: column;
+  }
+  .items {
+    max-width: 415px;
+    border-right: none;
+    padding: 0 0 32px;
+    border-bottom: 1px solid $color-text-black;
+    &:last-child {
+      padding: 0 0 32px;
+    }
+  }
+}
+
