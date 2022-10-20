@@ -1,11 +1,10 @@
+import Link from "../Link/Link";
 import styles from "./Tab.module.scss";
 
 function Tab({ href, text }) {
   return (
-    <li>
-      <a href={href} className={styles.link} target="_blank" rel="noreferrer">
-        {text}
-      </a>
+    <li className={styles.link}>
+      <Link href={href} text={text}></Link>
     </li>
   );
 }
