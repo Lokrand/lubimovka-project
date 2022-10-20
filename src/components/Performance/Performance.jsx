@@ -34,7 +34,7 @@ export const Performance = ({ props }) => {
           <button className={styles.button}>
             <img
               src={require("../../images/Arrow_for_button.svg").default}
-              alt="Стрелка"
+              alt="Стрелка вправо"
               className={styles.arrow}
             />
             БИЛЕТЫ
