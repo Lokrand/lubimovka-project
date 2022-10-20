@@ -1,20 +1,19 @@
-import React, {FC} from 'react';
-import styles from './Video.module.scss';
+import React, { FC } from "react";
+import styles from "./Video.module.scss";
 
 interface VideoProps {
-    src: string
+  src: string;
 }
 
-const Video: FC<VideoProps> = ({src}) => {
-    return (
-        <iframe
-            src={src}
-            title="Youtube Player"
-            allowFullScreen
-            className={styles.video}
-        />
-    );
+const Video: FC<VideoProps> = ({ src }) => {
+  return (
+    <iframe
+      src={src}
+      title="Youtube Player"
+      allowFullScreen
+      className={styles.video}
+    />
+  );
 };
 
 export default Video;
-

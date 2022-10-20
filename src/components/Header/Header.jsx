@@ -1,11 +1,14 @@
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
+import logo from "../../images/Logo.svg";
+import Navigation from "../Navigation/Navigation";
 
 function Header() {
   return (
     <header className={styles.header}>
-      <h1>Hello</h1>
+      <img src={logo} alt="Логотип." />
+      <Navigation />
     </header>
   );
 }
 
-export default Header
+export default Header;
