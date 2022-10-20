@@ -1,0 +1,20 @@
+.gallery {
+  max-width: 1440px;
+  margin: 145px auto 0;
+  h2 {
+    margin: 0 0 45px 365px;
+    width: 568px;
+    font-size: 64px;
+    line-height: 60px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(359px, 360px));
+    gap: 1px;
+    line-height: 0;
+  }
+}
