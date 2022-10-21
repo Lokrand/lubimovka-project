@@ -4,6 +4,7 @@ import Videos from "../Videos/Videos";
 import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
+import CooperationProject from "../CooperationProject/CooperationProject";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Performances />
         <Pieces />
         <Persons />
+
+        <CooperationProject/>
       </main>
     </>
   );

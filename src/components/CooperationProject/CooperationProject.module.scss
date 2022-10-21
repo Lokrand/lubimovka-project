@@ -1,0 +1,58 @@
+.root {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    @media screen and (max-width: 760px) {
+      padding: 0 24px 0 55px;
+    }
+
+    img {
+      position: absolute;
+      right: 520px;
+      top: -25px;
+      @media screen and (max-width: 760px) {
+        right: 360px;
+      }
+    }
+
+    h2 {
+      font-family: 'Neue Machina', sans-serif;
+      font-size: 36px;
+      line-height: 38px;
+      letter-spacing: -0.01em;
+      width: 516px;
+      @media screen and (max-width: 760px) {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        width: 335px;
+      }
+    }
+  }
+
+  &__subtitles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    p {
+      font-family: 'Neue Machina', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      width: 468px;
+      @media screen and (max-width: 760px) {
+        font-size: 20px;
+        line-height: 28px;
+        width: 303px;
+      }
+    }
+  }
+}
