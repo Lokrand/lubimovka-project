@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './YouTubePlayList.module.scss';
-import arrowRight from './images/arrow-right.svg';
+import arrowRight from '../../images/arrow-right.svg';
 
 const YouTubePlayList = () => {
     return (
