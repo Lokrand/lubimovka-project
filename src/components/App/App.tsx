@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
 import CooperationProject from "../CooperationProject/CooperationProject";
+import Gallery from "../Gallery/Gallery";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Performances />
         <Pieces />
         <Persons />
-
         <CooperationProject/>
+        <Gallery />
       </main>
     </>
   );
