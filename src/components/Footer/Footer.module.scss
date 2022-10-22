@@ -1,0 +1,190 @@
+@import "../../styles/constants.scss";
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: min-content 1fr 1fr;
+  grid-template-rows: repeat(3, min-content);
+  @media screen and (max-width: 740px)  {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, min-content);
+
+  }
+
+  img {
+    grid-row: 1/-1;
+    padding: 42px 82px 0 32px;
+    @media screen and (max-width: 770px) {
+      padding-right: 25px;
+    }
+    @media screen and (max-width: 740px)  {
+      width: 93px;
+      grid-row: 1/2;
+      padding-left: 55px;
+    }
+  }
+
+  > ul {
+    padding-top: 42px;
+    @media screen and (max-width: 740px)  {
+      grid-row: 4/5;
+      padding: 0 0 110px 55px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 70px;
+
+    }
+  }
+
+  &__body {
+    grid-row: 2/3;
+    grid-column: 2/-1;
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0 50px;
+    @media screen and (max-width: 740px)  {
+      grid-column: 1;
+      padding: 32px 0 85px 55px;
+      flex-direction: column;
+      row-gap: 55px;
+    }
+
+    h3 {
+      font-family: 'Neue Machina', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      width: 230px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-family: 'Formular', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      width: 230px;
+      @media screen and (max-width: 740px)  {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 15px 80px;
+    @media screen and (max-width: 770px) {
+      column-gap: 25px;
+    }
+    @media screen and (max-width: 740px)  {
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    a {
+      font-family: 'Formular', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration: none;
+      color: $color-text-black;
+      transition: .5s;
+      @media screen and (max-width: 740px)  {
+        font-size: 18px;
+        line-height: 23px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      padding: 0;
+    }
+  }
+
+  &__footer {
+    grid-row: 3/-1;
+    grid-column: 2/-1;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 740px) {
+      border-top: 1px solid $color-text-black;
+      grid-row: 5/-1;
+      grid-column: 1;
+      flex-direction: column;
+      padding-left: 28px;
+    }
+    div {
+      display: flex;
+      gap: 0 32px;
+      width: 390px;
+      align-items: center;
+      @media screen and (max-width: 740px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 30px;
+        > span {
+          width: 250px;
+          padding-top: 5px;
+        }
+      }
+    }
+
+    div > div {
+      width: auto;
+      gap: 0;
+      @media screen and (max-width: 740px) {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: flex-end;
+        width: 220px;
+        gap: 8px;
+        > p {
+          grid-row: 1;
+        }
+      }
+
+      img {
+        width: 25px;
+        padding: 0 0 10px 0;
+        @media screen and (max-width: 740px) {
+          padding: 0 0 0;
+        }
+      }
+    }
+
+    p, span {
+      font-family: 'Formular', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      > a {
+        text-decoration: none;
+        color: $color-text-black;
+        @media screen and (max-width: 740px) {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+}
