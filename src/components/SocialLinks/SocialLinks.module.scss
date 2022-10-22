@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  padding: 20px 30px;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  align-self: flex-end;
+  height: 50px;
+  border-left: 1px solid;
+  box-sizing: border-box;
+}

@@ -1,0 +1,62 @@
+@import "../../styles/constants.scss";
+
+.poster {
+  position: relative;
+  width: 192px;
+  height: 252px;
+  background-color: $color-bg-accent;
+  padding: 24px;
+}
+
+.title {
+  width: 182px;
+  font: 400 20px/24px "Neue Machina", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.description {
+  margin-top: 16px;
+}
+
+.author {
+  font: 400 20px/24px "Neue Machina", sans-serif;
+  max-width: 190px;
+  margin-bottom: 4px;
+}
+
+.city {
+  font: 300 16px/22px;
+}
+
+.yaer {
+  font: 300 16px/22px;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  width: 244px;
+  height: 56px;
+  padding: 16px 16px 18px;
+  text-align: start;
+  background-color: $color-bg-accent;
+  border: none;
+  border-top: 1px solid $color-text-black;
+}
+
+@media screen and (max-width: 1439px) {
+}
+
+@media screen and (max-width: 989px) {
+  .poster {
+    width: 212px;
+    height: 309px;
+    padding: 16px;
+  }
+}
