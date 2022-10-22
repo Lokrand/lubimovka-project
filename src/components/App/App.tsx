@@ -4,12 +4,14 @@ import Videos from "../Videos/Videos";
 import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
+import Head from "../Head/Head";
 
 function App() {
   return (
     <>
       <Header />
       <main>
+        <Head />
         <Videos />
         <Performances />
         <Pieces />
