@@ -1,42 +1,46 @@
 @import "../../styles/constants.scss";
 
-.link {
+.item {
   text-decoration: none;
   color: $color-text-black;
   display: flex;
   align-items: flex-start;
+
+  &::after {
+    display: block;
+    box-sizing: border-box;
+    width: 10px;
+    height: 24px;
+    border: 1px solid;
+    content: "";
+    visibility: hidden;
+    border-left: 0;
+    border-bottom-right-radius: 200% 100%;
+    border-top-right-radius: 200% 100%;
+  }
+  &::before {
+    display: block;
+    box-sizing: border-box;
+    width: 10px;
+    height: 24px;
+    border: 1px solid;
+    content: "";
+    visibility: hidden;
+    border-right: 0;
+    border-bottom-left-radius: 200% 100%;
+    border-top-left-radius: 200% 100%;
+  }
+
+  &:hover::after {
+    visibility: visible;
+  }
+
+  &:hover::before {
+    visibility: visible;
+  }
 }
 
-.link::after {
-  display: block;
-  box-sizing: border-box;
-  width: 10px;
-  height: 24px;
-  border: 1px solid;
-  content: "";
-  visibility: hidden;
-  border-left: 0;
-  border-bottom-right-radius: 200% 100%;
-  border-top-right-radius: 200% 100%;
-}
-
-.link::before {
-  display: block;
-  box-sizing: border-box;
-  width: 10px;
-  height: 24px;
-  border: 1px solid;
-  content: "";
-  visibility: hidden;
-  border-right: 0;
-  border-bottom-left-radius: 200% 100%;
-  border-top-left-radius: 200% 100%;
-}
-
-.link:hover::after {
-  visibility: visible;
-}
-
-.link:hover::before {
-  visibility: visible;
+.link {
+  text-decoration: none;
+  color: inherit;
 }
