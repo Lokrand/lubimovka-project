@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
 import Head from "../Head/Head";
+import Gallery from "../Gallery/Gallery";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Performances />
         <Pieces />
         <Persons />
+        <Gallery />
       </main>
     </>
   );
