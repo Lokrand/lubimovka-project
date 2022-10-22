@@ -3,7 +3,7 @@ import styles from "./Navigation.module.scss";
 
 function Navigation() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ul className={styles.list}>
         <Tab href={"#"} text={"Афиша"} />
         <Tab href={"#"} text={"Библиотека"} />

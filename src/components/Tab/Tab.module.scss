@@ -9,10 +9,10 @@
 
 .link::after {
   display: block;
-  width: 0.6em;
-  height: 1.6em;
   box-sizing: border-box;
-  border: 0.0625rem solid;
+  width: 10px;
+  height: 24px;
+  border: 1px solid;
   content: "";
   visibility: hidden;
   border-left: 0;
@@ -22,10 +22,10 @@
 
 .link::before {
   display: block;
-  width: 0.6em;
-  height: 1.6em;
   box-sizing: border-box;
-  border: 0.0625rem solid;
+  width: 10px;
+  height: 24px;
+  border: 1px solid;
   content: "";
   visibility: hidden;
   border-right: 0;
