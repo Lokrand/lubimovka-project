@@ -5,9 +5,11 @@ import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
 import YouTubePlayList from "../YouTubePlayList/YouTubePlayList";
+import Footer from "../Footer/Footer";
 import Head from "../Head/Head";
 import Gallery from "../Gallery/Gallery";
 import About from "../About/About";
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <YouTubePlayList/>
         <Gallery />
       </main>
+      <Footer/>
     </>
   );
 }
