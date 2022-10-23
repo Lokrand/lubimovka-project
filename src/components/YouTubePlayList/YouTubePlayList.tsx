@@ -10,7 +10,7 @@ const YouTubePlayList = () => {
                 <p>Видео прошедших мероприятий можно посмотреть в плейлисте на канале Любимовки в YouTube</p>
                 <a href={'#'} target="_blank" rel="noreferrer noopener">
                     YOUTUBE
-                    <img src={arrowRight} alt='стрелка'/>
+                    <img src={arrowRight} alt='стрелка вправо'/>
                 </a>
             </div>
 
