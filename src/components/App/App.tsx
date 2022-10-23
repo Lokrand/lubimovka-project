@@ -6,6 +6,7 @@ import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
 import YouTubePlayList from "../YouTubePlayList/YouTubePlayList";
 import Footer from "../Footer/Footer";
+import CooperationProject from "../CooperationProject/CooperationProject";
 import Head from "../Head/Head";
 import Gallery from "../Gallery/Gallery";
 import About from "../About/About";
@@ -23,6 +24,7 @@ function App() {
         <Pieces />
         <Persons />
         <YouTubePlayList/>
+        <CooperationProject/>
         <Gallery />
       </main>
       <Footer/>
