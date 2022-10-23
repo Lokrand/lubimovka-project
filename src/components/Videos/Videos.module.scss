@@ -3,12 +3,22 @@
   margin: 0 auto;
   padding: 0 30px;
   box-sizing: border-box;
-  text-align: center;
+  @media screen and (max-width: 760px) {
+    padding: 0;
+  }
 
   h2 {
-    margin: 0 0 45px;
+    margin: 145px 0 45px 365px;
+    width: 568px;
     font-size: 64px;
     line-height: 60px;
+    @media screen and (max-width: 760px) {
+      font-size: 28px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      width: 360px;
+      margin: 100px 0 22px 24px;
+    }
   }
 
   ul {
