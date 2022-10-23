@@ -11,7 +11,6 @@ import Head from "../Head/Head";
 import Gallery from "../Gallery/Gallery";
 import About from "../About/About";
 
-
 function App() {
   return (
     <>
@@ -20,14 +19,14 @@ function App() {
         <Head />
         <About />
         <Videos />
+        <Gallery />
         <Performances />
         <Pieces />
         <Persons />
-        <YouTubePlayList/>
-        <CooperationProject/>
-        <Gallery />
+        <YouTubePlayList />
+        <CooperationProject />
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }

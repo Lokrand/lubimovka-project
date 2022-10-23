@@ -11,7 +11,7 @@ const initVideos: string[] = [
 const Videos = () => {
   return (
     <section className={styles.videos}>
-      <h2>Our performances</h2>
+      <h2>Заголовок блока с видео</h2>
       <ul>
         {initVideos.map((video, index) => (
           <li key={index}>

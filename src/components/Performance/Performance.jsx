@@ -1,8 +1,7 @@
 import styles from "./Performance.module.scss";
-
+import { blackArrow } from "../../utils/constants";
 export const Performance = ({ props }) => {
-  const blackArrow = require("../../images/Arrow_for_button.svg").default;
-
+  
 
   return (
     <div>
@@ -20,25 +19,21 @@ export const Performance = ({ props }) => {
           <h3 className={styles.title}>{props.title}</h3>
           <p className={styles.directors}>{props.directors}</p>
           <p className={styles.read}>читка проекта Любимовка.Ещё</p>
-          </div>
+        </div>
       </div>
-        <div className={styles.buttons}>
-          <button className={styles.button}>
-            <img
-              src={blackArrow}
-              alt="Стрелка"
-              className={styles.arrow}
-            />
-            О СПЕКТАКЛЕ
-          </button>
-          <button className={styles.button}>
-            <img
-              src={require("../../images/Arrow_for_button.svg").default}
-              alt="Стрелка вправо"
-              className={styles.arrow}
-            />
-            БИЛЕТЫ
-          </button>
+      <div className={styles.buttons}>
+        <button className={styles.button}>
+          <img src={blackArrow} alt="Стрелка" className={styles.arrow} />О
+          СПЕКТАКЛЕ
+        </button>
+        <button className={styles.button}>
+          <img
+            src={require("../../images/Arrow_for_button.svg").default}
+            alt="Стрелка вправо"
+            className={styles.arrow}
+          />
+          БИЛЕТЫ
+        </button>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import styles from "./Pieces.module.scss";
 import { pieces } from "../../utils/constants";
 import { Piece } from "../Piece/Piece";
+
 export const Pieces = () => {
   return (
     <div className={styles.section}>

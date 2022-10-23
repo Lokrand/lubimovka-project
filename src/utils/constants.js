@@ -77,3 +77,5 @@ export const persons = [
     job: "Драматург, сценарист, преподаватель",
   },
 ];
+
+export const blackArrow = require("../images/Arrow_for_button.svg").default;
