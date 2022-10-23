@@ -4,6 +4,7 @@ import Videos from "../Videos/Videos";
 import Header from "../Header/Header";
 import { Persons } from "../Persons/Persons";
 import { Pieces } from "../Pieces/Pieces";
+import YouTubePlayList from "../YouTubePlayList/YouTubePlayList";
 import Gallery from "../Gallery/Gallery";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Performances />
         <Pieces />
         <Persons />
+        <YouTubePlayList/>
         <Gallery />
       </main>
     </>
