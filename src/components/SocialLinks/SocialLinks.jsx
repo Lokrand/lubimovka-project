@@ -1,27 +1,17 @@
 import styles from "./SocialLinks.module.scss";
-import Link from "../Link/Link";
+import Tab from "../Tab/Tab";
 
 function SocialLinks() {
   return (
-    <div className={styles.wrapper}>
+    <nav className={styles.nav}>
       <ul className={styles.list}>
-        <li>
-          <Link href={"#"} text={"fb"} target={true} />
-        </li>
-        <li>
-          <Link href={"#"} text={"inst"} target={true} />
-        </li>
-        <li>
-          <Link href={"#"} text={"ytube"} target={true} />
-        </li>
-        <li>
-          <Link href={"#"} text={"tlgrm"} target={true} />
-        </li>
-        <li>
-          <Link href={"#"} text={"vk"} target={true} />
-        </li>
+        <Tab href={"#"} text={"fb"} />
+        <Tab href={"#"} text={"inst"} />
+        <Tab href={"#"} text={"ytube"} />
+        <Tab href={"#"} text={"tlgrm"} />
+        <Tab href={"#"} text={"vk"} />
       </ul>
-    </div>
+    </nav>
   );
 }
 
