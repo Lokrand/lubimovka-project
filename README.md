@@ -16,4 +16,4 @@
 - [Дмитрий Мытников](https://github.com/Dimitry-prog)
 - [Степан Бурлаков](https://github.com/burlackoff)
 
-### Протестировать проект можно по ссылке - ... (тут типо будет github pages)
+### Протестировать проект можно по ссылке - [GitHub pages](https://lokrand.github.io/lubimovka-project/)
