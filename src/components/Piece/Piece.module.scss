@@ -11,6 +11,9 @@
       height: 310px;
       padding: 16px;
   }
+  &:hover .button {
+    display: flex;
+  }
 }
 
 .title {
@@ -47,7 +50,7 @@
 
 .button {
   width: 240px;
-  display: flex;
+  display: none;
   position: relative;
   justify-content: space-between;
   align-items: center;
