@@ -58,7 +58,8 @@
   padding: 0;
   text-align: start;
   font: 300 16px/14px "Formular", sans-serif;
-  transition: all 0.2s linear;
+  transition: color 0.2s linear;
+  transition: scale 0.1s linear;
   padding: 10px 0;
   &:after {
     content: '';
@@ -82,12 +83,14 @@
   }
   &:hover {
     color: $color-white;
-    scale: 1.1;
     z-index: 2;
     cursor: pointer;
     &:before {
       width: 100%;
     }
+  }
+  &:active {
+    scale: 1.1;
   }
 }
 
