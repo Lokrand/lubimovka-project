@@ -1,8 +1,7 @@
 import styles from "./Performance.module.scss";
 import { blackArrow } from "../../utils/constants";
+import { ArrowRight } from "../../icons/arrowRight";
 export const Performance = ({ props }) => {
-  
-
   return (
     <div>
       <div className={styles.block}>
@@ -23,15 +22,10 @@ export const Performance = ({ props }) => {
       </div>
       <div className={styles.buttons}>
         <button className={styles.button}>
-          <img src={blackArrow} alt="Стрелка" className={styles.arrow} />О
-          СПЕКТАКЛЕ
+          <ArrowRight />О СПЕКТАКЛЕ
         </button>
         <button className={styles.button}>
-          <img
-            src={require("../../images/Arrow_for_button.svg").default}
-            alt="Стрелка вправо"
-            className={styles.arrow}
-          />
+          <ArrowRight />
           БИЛЕТЫ
         </button>
       </div>
