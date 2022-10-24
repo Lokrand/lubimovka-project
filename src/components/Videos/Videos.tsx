@@ -3,9 +3,9 @@ import styles from "./Videos.module.scss";
 import Video from "../Video/Video";
 
 const initVideos: string[] = [
-  "https://www.youtube.com/embed/v79wBGAeOeI",
-  "https://www.youtube.com/embed/1zjPOhWoGp8",
-  "https://www.youtube.com/embed/9f_Hx6SHolo",
+  "https://www.youtube.com/embed/JDs2DxwNLUo",
+  "https://www.youtube.com/embed/Ae1hUGycs40",
+  "https://www.youtube.com/embed/-zzxxaBVbRw",
 ];
 
 const Videos = () => {
