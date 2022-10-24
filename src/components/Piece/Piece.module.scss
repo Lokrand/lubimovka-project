@@ -6,6 +6,11 @@
   height: 252px;
   padding: 24px;
   background-color: $color-bg-accent;
+  @media screen and (max-width: 989px) {
+      width: 212px;
+      height: 310px;
+      padding: 16px;
+  }
 }
 
 .title {
@@ -25,11 +30,11 @@
 }
 
 .city {
-  font: 300 16px/22px;
+  font: 300 16px/22px "Formular", sans-serif;
 }
 
-.yaer {
-  font: 300 16px/22px;
+.year {
+  font: 300 16px/22px "Formular", sans-serif;
 }
 
 .buttons {
@@ -54,7 +59,9 @@
   border-top: 1px solid $color-text-black;
   transition: color 0.2s linear;
   transition: scale 0.1s linear;
-
+  @media screen and (max-width: 989px) {
+      width: 244px;
+  }
   &:after {
     content: "";
     position: absolute;
@@ -88,13 +95,3 @@
   }
 }
 
-@media screen and (max-width: 1439px) {
-}
-
-@media screen and (max-width: 989px) {
-  .poster {
-    width: 212px;
-    height: 309px;
-    padding: 16px;
-  }
-}
