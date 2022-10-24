@@ -1,13 +1,41 @@
 {
   "files": {
-    "main.css": "./static/css/main.540ffb12.css",
-    "main.js": "./static/js/main.4b54dae0.js",
+    "main.css": "./static/css/main.e9cf27d6.css",
+    "main.js": "./static/js/main.d05b5f0d.js",
+    "static/media/audience.jpg": "./static/media/audience.70ff8983c0eb7e4b6d80.jpg",
+    "static/media/mosbrew.svg": "./static/media/mosbrew.6d8f197693c213a550a86026dec6a1ce.svg",
+    "static/media/gallery_1.png": "./static/media/gallery_1.ca1acfb2aebda775c6e5.png",
+    "static/media/Person_3.png": "./static/media/Person_3.b521cb3b075ad394b16b.png",
+    "static/media/фонд_Михаила_Прохорова.svg": "./static/media/фонд_Михаила_Прохорова.663311ff543cb693f3f05318689583ea.svg",
+    "static/media/gallery_4.jpg": "./static/media/gallery_4.997f076c68e589bc8f19.jpg",
+    "static/media/Person_2.png": "./static/media/Person_2.e9cd547dc8d1b6187c22.png",
+    "static/media/gallery_7.jpg": "./static/media/gallery_7.02ad7660e5f553207438.jpg",
+    "static/media/gallery_3.jpg": "./static/media/gallery_3.781b02725f9623fc9cd2.jpg",
+    "static/media/а_поговорить.svg": "./static/media/а_поговорить.b1c4a18158704883ef59fe5b92f82015.svg",
+    "static/media/Person_1.png": "./static/media/Person_1.0ed0e11718b27ceb9e97.png",
+    "static/media/gallery_5.jpg": "./static/media/gallery_5.61401c799206a5208900.jpg",
+    "static/media/gallery_6.jpg": "./static/media/gallery_6.637dae7fe9384a519d21.jpg",
+    "static/media/gallery_8.jpg": "./static/media/gallery_8.09c59ec935c8a8b4bf2b.jpg",
+    "static/media/NeueMachina-Regular.woff": "./static/media/NeueMachina-Regular.d64094f47aa8215253c6.woff",
+    "static/media/gallery_2.jpg": "./static/media/gallery_2.ec980e6ae41f377f226a.jpg",
+    "static/media/Formular-Light.woff": "./static/media/Formular-Light.40042297f1cebc2995f1.woff",
+    "static/media/NeueMachina-Regular.woff2": "./static/media/NeueMachina-Regular.2dabb3622c2ec78c26ea.woff2",
+    "static/media/Formular-Light.woff2": "./static/media/Formular-Light.91907b54587b01cd3e56.woff2",
+    "static/media/linya.jpg": "./static/media/linya.4ceaec26df86763ceeaa.jpg",
+    "static/media/logo_footer.svg": "./static/media/logo_footer.c7c953b40fa375a02781a633fc07b774.svg",
+    "static/media/sbtg.svg": "./static/media/sbtg.121d1acf70533454516eea46bd99b5b0.svg",
+    "static/media/Генеральные партнеры.svg": "./static/media/Генеральные партнеры.7c98841e1ea40d1ab0eaf2de518abd6c.svg",
+    "static/media/Logo.svg": "./static/media/Logo.48af9c2cbc4ffa24eeab213984efb79e.svg",
     "index.html": "./index.html",
-    "main.540ffb12.css.map": "./static/css/main.540ffb12.css.map",
-    "main.4b54dae0.js.map": "./static/js/main.4b54dae0.js.map"
+    "static/media/asterisk.svg": "./static/media/asterisk.11e672bdb0b65f00d114b5e7fc8d6a0e.svg",
+    "static/media/footer_footer.svg": "./static/media/footer_footer.ac40074b9667fccc8233adb8b2d7ae23.svg",
+    "static/media/Arrow_for_button.svg": "./static/media/Arrow_for_button.9e1de59bdba7af2570747531521db54b.svg",
+    "static/media/plus.svg": "./static/media/plus.ed2b5ff1f4ca6d110a164de7d25a908c.svg",
+    "main.e9cf27d6.css.map": "./static/css/main.e9cf27d6.css.map",
+    "main.d05b5f0d.js.map": "./static/js/main.d05b5f0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.540ffb12.css",
-    "static/js/main.4b54dae0.js"
+    "static/css/main.e9cf27d6.css",
+    "static/js/main.d05b5f0d.js"
   ]
 }
