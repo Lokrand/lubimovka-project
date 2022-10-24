@@ -1,0 +1,100 @@
+@import "../../styles/constants.scss";
+
+.poster {
+  position: relative;
+  width: 192px;
+  height: 252px;
+  padding: 24px;
+  background-color: $color-bg-accent;
+}
+
+.title {
+  width: 182px;
+  font: 400 20px/24px "Neue Machina", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.description {
+  margin-top: 16px;
+}
+
+.author {
+  font: 400 20px/24px "Neue Machina", sans-serif;
+  max-width: 190px;
+  margin-bottom: 4px;
+}
+
+.city {
+  font: 300 16px/22px;
+}
+
+.yaer {
+  font: 300 16px/22px;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+}
+
+.button {
+  width: 240px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 16px 16px 18px;
+  text-align: start;
+  background-color: $color-bg-accent;
+  border: none;
+  border-top: 1px solid $color-text-black;
+  transition: color 0.2s linear;
+  transition: scale 0.1s linear;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $color-text-black;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  &:hover {
+    color: $color-white;
+    z-index: 2;
+    cursor: pointer;
+    &:before {
+      width: 100%;
+    }
+  }
+  &:active {
+    scale: 1.1;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+}
+
+@media screen and (max-width: 989px) {
+  .poster {
+    width: 212px;
+    height: 309px;
+    padding: 16px;
+  }
+}

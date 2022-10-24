@@ -1,0 +1,50 @@
+@import "../../styles/constants.scss";
+
+.link {
+  display: flex;
+  padding: 20px 15px;
+  color: $color-text-black;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &::after {
+    display: block;
+    box-sizing: border-box;
+    width: 10px;
+    height: 24px;
+    border: 1px solid;
+    content: "";
+    visibility: hidden;
+    border-left: 0;
+    border-bottom-right-radius: 200% 100%;
+    border-top-right-radius: 200% 100%;
+  }
+
+  &::before {
+    display: block;
+    box-sizing: border-box;
+    width: 10px;
+    height: 24px;
+    border: 1px solid;
+    content: "";
+    visibility: hidden;
+    border-right: 0;
+    border-bottom-left-radius: 200% 100%;
+    border-top-left-radius: 200% 100%;
+  }
+
+  &:hover::after {
+    visibility: visible;
+  }
+
+  &:hover::before {
+    visibility: visible;
+  }
+
+  &_icon {
+    width: 25px;
+    height: 25px;
+  }
+}
