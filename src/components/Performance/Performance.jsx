@@ -8,8 +8,8 @@ export const Performance = ({ props }) => {
       <div className={styles.block}>
         <img
           className={styles.image}
-          src="https://img.desktopwallpapers.ru/rocks/pics/wide/1920x1200/27640f370156a0e0ae3ee9608fc8480a.jpg"
-          alt=""
+          src={require(`../../images/performances/${props.image}`)}
+          alt={props.title}
         />
         <div className={styles.description}>
           <div className={styles.data_block}>

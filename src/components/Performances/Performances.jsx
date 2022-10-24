@@ -3,7 +3,6 @@ import styles from "./Performances.module.scss";
 import { performances } from "../../utils/constants";
 
 export const Performances = () => {
-  console.log(performances);
   return (
     <div>
       <h2 className={styles.title}>

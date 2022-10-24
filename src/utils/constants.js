@@ -1,17 +1,20 @@
 export const performances = [
   {
+    image: "mama.jpg",
     data: "15 декабря",
     time: "11:00",
     title: "МАМА",
     directors: "Драматург: Ольга Казакова Режиссёр: Катя Ганюшинаяч",
   },
   {
+    image: "linya.jpg",
     data: "15 декабря",
     time: "11:00",
-    title: "МАМА",
+    title: "Про линя",
     directors: "Драматург: Ольга Казакова Режиссёр: Катя Ганюшинаяч",
   },
   {
+    image: "mama.jpg",
     data: "15 декабря",
     time: "11:00",
     title: "МАМА",
