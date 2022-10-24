@@ -1,6 +1,7 @@
+/* eslint-disable */
 import styles from "./Performance.module.scss";
-import { blackArrow } from "../../utils/constants";
-import { ArrowRight } from "../../icons/arrowRight";
+import { ArrowRight } from "../../icons/ArrowRight";
+
 export const Performance = ({ props }) => {
   return (
     <div>

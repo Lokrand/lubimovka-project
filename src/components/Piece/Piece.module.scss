@@ -41,7 +41,10 @@
 }
 
 .button {
-  width: 244px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 56px;
   padding: 16px 16px 18px;
   text-align: start;
