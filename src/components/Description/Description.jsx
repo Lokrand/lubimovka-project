@@ -1,7 +1,7 @@
-import styles from "./Head.module.scss";
+import styles from "./Description.module.scss";
 import audience from "../../images/audience.jpg";
 
-function Head() {
+const Head = () => {
   return (
     <section className={styles.section}>
       <h1 className={styles.title}>Любимовка. Ещё</h1>
@@ -16,6 +16,6 @@ function Head() {
       />
     </section>
   );
-}
+};
 
 export default Head;

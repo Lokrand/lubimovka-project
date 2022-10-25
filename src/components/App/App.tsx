@@ -7,7 +7,7 @@ import { Pieces } from "../Pieces/Pieces";
 import YouTubePlayList from "../YouTubePlayList/YouTubePlayList";
 import Footer from "../Footer/Footer";
 import CooperationProject from "../CooperationProject/CooperationProject";
-import Head from "../Head/Head";
+import Description from "../Description/Description";
 import Gallery from "../Gallery/Gallery";
 import About from "../About/About";
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <main>
-        <Head />
+        <Description />
         <About />
         <Videos />
         <Gallery />
