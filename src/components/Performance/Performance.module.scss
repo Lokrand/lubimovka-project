@@ -19,25 +19,25 @@
 .data_block {
   display: flex;
   column-gap: 42px;
-  font: 300 20px/28px;
+  font: 300 20px/28px "Formular", sans-serif;
   margin-bottom: 4px;
 }
 
 .title {
-  font: 400, 36px/38px;
+  font: 400 36px/38px "Neue Machina", sans-serif;
   letter-spacing: -0.01em;
   margin-bottom: 16px;
 }
 
 .directors {
   width: 240px;
-  font: 300 16px/22px;
+  font: 300 16px/22px "Formular", sans-serif;
   margin: 0 0 20px 30px;
 }
 
 .read {
   width: 150px;
-  font: 300 14px/17px;
+  font: 300 14px/17px "Formular", sans-serif;
   margin-bottom: 16px;
 }
 .buttons {
@@ -50,16 +50,19 @@
   width: 154px;
   position: relative;
   background: none;
+  display: flex;
+  column-gap: 8px;
   border: none;
   border-bottom: 1px solid $color-text-black;
   border-left: 1px solid $color-text-black;
   padding: 0;
   text-align: start;
   font: 300 16px/14px "Formular", sans-serif;
-  transition: all 0.2s linear;
+  transition: color 0.2s linear;
+  transition: scale 0.1s linear;
   padding: 10px 0;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -68,23 +71,26 @@
     z-index: -2;
   }
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0%;
     height: 100%;
     background-color: $color-text-black;
-    transition: all .3s;
+    transition: all 0.3s;
     z-index: -1;
   }
   &:hover {
     color: $color-white;
-    scale: 1.1;
+    z-index: 2;
     cursor: pointer;
     &:before {
       width: 100%;
     }
+  }
+  &:active {
+    scale: 1.1;
   }
 }
 

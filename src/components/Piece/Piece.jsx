@@ -1,3 +1,5 @@
+import { ArrowDown } from "../../icons/ArrowDown";
+import { ArrowOneHour } from "../../icons/ArrowOneHour";
 import styles from "./Piece.module.scss";
 
 export const Piece = ({ props }) => {
@@ -8,19 +10,11 @@ export const Piece = ({ props }) => {
         <div className={styles.buttons}>
           <button className={styles.button}>
             СМОТРЕТЬ ЧИТКУ{" "}
-            <img
-              src={require("../../images/Arrow_for_button.svg").default}
-              alt="Стрелка на 1 час"
-              className={styles.arrow}
-            />
+            <ArrowOneHour />
           </button>
           <button className={styles.button}>
             СКАЧАТЬ ПЬЕСУ{" "}
-            <img
-              src={require("../../images/Arrow_for_button.svg").default}
-              alt="Стрелка вниз"
-              className={styles.arrow}
-            />
+            <ArrowDown />
           </button>
         </div>
       </div>

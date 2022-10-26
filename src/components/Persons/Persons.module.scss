@@ -6,7 +6,13 @@
   width: 358px;
   margin: 0 auto 58px;
   padding-right: 348px;
-  font: 400 40px/40px 'Neue Machina','Inter','sans-serif';
+  font: 400 40px/40px "Neue Machina", sans-serif;
+  @media screen and (max-width: 977px) {
+    width: 366px;
+    padding: 0;
+    margin: 0 auto 24px;
+    font: 400 28px/32px "Neue Machina", sans-serif;
+  }
 }
 
 .persons {
@@ -14,4 +20,10 @@
   column-gap: 30px;
   max-width: 930px;
   margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  @media screen and (max-width: 977px) {
+    filter: grayscale(100%);
+    margin: 0 0 0 25px;
+  }
 }
