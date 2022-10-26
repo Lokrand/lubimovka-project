@@ -1,0 +1,38 @@
+.section {
+  margin: 93px 0 123px;
+}
+
+.title {
+  width: 358px;
+  margin: 0 auto 48px;
+  padding-right: 348px;
+  font: 400 40px/40px "Neue Machina", "Inter", "sans-serif";
+}
+
+.pieces {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 30px;
+  overflow: auto;
+  // margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .pieces {
+    // max-width: 780px;
+    // row-gap: 30px;
+    // flex-wrap: wrap;
+    // justify-content: center;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .title {
+    width: 369px;
+    padding: 0;
+    margin: 100px 0 32px;
+    font: 400 28px/32px "Neue Machina", "Inter", "sans-serif";
+  }
+}
