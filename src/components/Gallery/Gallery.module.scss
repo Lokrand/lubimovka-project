@@ -4,13 +4,12 @@
   h2 {
     margin: 145px 0 45px 365px;
     width: 568px;
-    font-size: 64px;
-    line-height: 60px;
+    font: 400 40px/40px 'Neue Machina',sans-serif;
+    letter-spacing: -0.01em;
     @media screen and (max-width: 760px) {
       margin: 100px 0 22px 24px;
       font-size: 28px;
       line-height: 32px;
-      letter-spacing: -0.01em;
       width: 360px;
     }
   }
@@ -20,9 +19,12 @@
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
     gap: 1px;
     line-height: 0;
+    @media screen and (max-width: 1050px){
+      grid-template-columns: repeat(2, minmax(343px, 1fr));
+    }
     @media screen and (max-width: 760px){
       grid-template-columns: repeat(2, minmax(159px, 1fr));
     }
