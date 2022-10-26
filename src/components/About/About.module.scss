@@ -9,22 +9,19 @@
   flex-direction: column;
   gap: 17px;
   box-sizing: border-box;
+  @media screen and (max-width: 1023.98px) {
+    padding: 54px 24px 72px;
+  }
 }
 
 .title {
-  font-family: "Neue Machina", serif;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 40px;
+  font: 400 40px/40px "Neue Machina", serif;
   letter-spacing: -0.01em;
 }
 
 .subtitle {
   padding-left: 60px;
   max-width: 509px;
-  font-family: "Formular", serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 28px;
+  font: 300 20px/28px "Formular", serif;
   letter-spacing: -0.01em;
 }
