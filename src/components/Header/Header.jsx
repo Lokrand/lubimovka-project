@@ -29,14 +29,14 @@ const Header = () => {
           <Tab href={"#"} text={"vk"} />
         </SocialLinks>
         <SupportLink />
-        <button className={styles.button}>
-          Проекты
-          <div className={styles.icon}>
-            <ArrowRight />
-          </div>
-        </button>
       </header>
       <div className={styles.line}></div>
+      <button className={styles.button}>
+        Проекты
+        <div className={styles.icon}>
+          <ArrowRight />
+        </div>
+      </button>
     </>
   );
 };

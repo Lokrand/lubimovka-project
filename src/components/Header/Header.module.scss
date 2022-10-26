@@ -7,6 +7,7 @@
   display: flex;
   box-sizing: border-box;
   padding-left: 30px;
+  flex-wrap: wrap;
 }
 
 .line {
@@ -21,7 +22,7 @@
   width: 119px;
   height: 31px;
   position: absolute;
-  margin-top: 94px;
+  margin: 36px 0 0 30px;
   background: none;
   display: flex;
   gap: 8px;
