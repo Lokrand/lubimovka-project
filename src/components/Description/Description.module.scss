@@ -44,4 +44,8 @@
 .image {
   max-width: 720px;
   width: 100%;
+  @media screen and (max-width: 767.98px) {
+    max-width: fit-content;
+    margin-top: 14px;
+  }
 }
