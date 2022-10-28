@@ -11,24 +11,31 @@ const Header = () => {
     <>
       <header className={styles.header}>
         <img src={logo} alt="Логотип." />
-        <Navigation>
-          <Tab href={"#"} text={"Афиша"} />
-          <Tab href={"#"} text={"Библиотека"} />
-          <Tab href={"#"} text={"Проекты"} />
-          <Tab href={"#"} text={"История"} />
-          <Tab href={"#"} text={"Блог"} />
-          <Tab href={"#"} text={"Новости"} />
-          <Tab href={"#"} text={"О фестивале"} />
-          <Tab href={"#"} text={"Контакты"} />
-        </Navigation>
-        <SocialLinks>
-          <Tab href={"#"} text={"fb"} />
-          <Tab href={"#"} text={"inst"} />
-          <Tab href={"#"} text={"ytube"} />
-          <Tab href={"#"} text={"tlgrm"} />
-          <Tab href={"#"} text={"vk"} />
-        </SocialLinks>
-        <SupportLink />
+        <div className={styles.navigation}>
+          <Navigation>
+            <Tab href={"#"} text={"Афиша"} />
+            <Tab href={"#"} text={"Библиотека"} />
+            <Tab href={"#"} text={"Проекты"} />
+            <Tab href={"#"} text={"История"} />
+            <Tab href={"#"} text={"Блог"} />
+            <Tab href={"#"} text={"Новости"} />
+            <Tab href={"#"} text={"О фестивале"} />
+            <Tab href={"#"} text={"Контакты"} />
+          </Navigation>
+          <SocialLinks>
+            <Tab href={"#"} text={"fb"} />
+            <Tab href={"#"} text={"inst"} />
+            <Tab href={"#"} text={"ytube"} />
+            <Tab href={"#"} text={"tlgrm"} />
+            <Tab href={"#"} text={"vk"} />
+          </SocialLinks>
+          <SupportLink />
+        </div>
+        <button className={styles.burger}>
+          <span
+            className={`${styles.burger_line} ${styles.burger_line_active}`}
+          ></span>
+        </button>
       </header>
       <div className={styles.line}></div>
       <button className={styles.button}>
