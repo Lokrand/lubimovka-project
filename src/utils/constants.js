@@ -79,3 +79,6 @@ export const persons = [
 ];
 
 export const blackArrow = require("../images/Arrow_for_button.svg").default;
+
+export const escape = "Escape";
+export const body = document.querySelector("body");
