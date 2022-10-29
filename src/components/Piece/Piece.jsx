@@ -9,17 +9,17 @@ export const Piece = ({ props }) => {
         <p className={styles.title}>{props.title}</p>
         <div className={styles.buttons}>
           <button className={styles.button}>
-            СМОТРЕТЬ ЧИТКУ{" "}
-            <ArrowOneHour />
+            СМОТРЕТЬ ЧИТКУ <ArrowOneHour />
           </button>
           <button className={styles.button}>
-            СКАЧАТЬ ПЬЕСУ{" "}
-            <ArrowDown />
+            СКАЧАТЬ ПЬЕСУ <ArrowDown />
           </button>
         </div>
       </div>
       <div className={styles.description}>
-        <p className={styles.author}>{props.author}</p>
+        <a href="/" className={styles.author}>
+          {props.author}
+        </a>
         <p className={styles.city}>{props.city}</p>
         <p className={styles.year}>{props.year}</p>
       </div>

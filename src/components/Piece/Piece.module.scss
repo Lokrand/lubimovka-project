@@ -30,7 +30,16 @@
   font: 400 20px/24px "Neue Machina", sans-serif;
   max-width: 190px;
   margin-bottom: 4px;
+  text-decoration: none;
+  color: $color-text-black;
+  transition: all .1s linear;
+  &:hover {
+    background-color: $color-text-black;
+    color: $color-white;
+  }
 }
+
+
 
 .city {
   font: 300 16px/22px "Formular", sans-serif;

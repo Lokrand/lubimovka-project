@@ -78,7 +78,6 @@ export const persons = [
   },
 ];
 
-export const blackArrow = require("../images/Arrow_for_button.svg").default;
 
 export const galleryImages = [
   require("../images/gallery/gallery_1.png"),
