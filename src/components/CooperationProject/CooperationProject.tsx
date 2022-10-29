@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './CooperationProject.module.scss';
-import snowflake from './images/asterisk.svg';
+import snowflake from '../../images/cooperationProject/asterisk.svg';
 
 const CooperationProject = () => {
     return (
