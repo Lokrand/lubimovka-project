@@ -6,6 +6,12 @@
   padding: 0 30px;
   flex-wrap: wrap;
   align-items: center;
+  @media screen and (max-width: 1421px) {
+    gap: 12px;
+  }
+  @media screen and (max-width: 1337px) {
+    gap: 0;
+  }
 }
 
 .nav {
