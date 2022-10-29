@@ -5,7 +5,27 @@
   margin: 0;
   list-style: none;
 
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+
+    &:first-of-type{
+      @media screen and (max-width: 740px) {
+        display: none;
+      }
+    }
+  }
+
   img {
     padding: 0;
+  }
+
+  p {
+    font: 300 14px/20px 'Formular',sans-serif ;
+    @media screen and (min-width: 740px) {
+      display: none;
+    }
   }
 }

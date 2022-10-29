@@ -7,7 +7,7 @@
   grid-template-columns: min-content 1fr 1fr;
   grid-template-rows: repeat(3, min-content);
   @media screen and (max-width: 740px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     grid-template-rows: repeat(5, min-content);
   }
 
@@ -20,7 +20,7 @@
     @media screen and (max-width: 740px) {
       width: 93px;
       grid-row: 1/2;
-      padding-left: 55px;
+      padding-left: 30px;
     }
   }
 
@@ -28,11 +28,11 @@
     padding-top: 42px;
     @media screen and (max-width: 740px) {
       grid-row: 4/5;
-      padding: 0 0 110px 55px;
+      padding: 0 0 110px 30px;
       display: flex;
       align-items: center;
       flex-wrap: wrap;
-      gap: 70px;
+      gap: 70px 48px;
     }
   }
 
@@ -44,7 +44,7 @@
     padding: 62px 0 50px;
     @media screen and (max-width: 740px) {
       grid-column: 1;
-      padding: 32px 0 85px 55px;
+      padding: 32px 0 85px 30px;
       flex-direction: column;
       row-gap: 55px;
     }

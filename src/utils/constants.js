@@ -92,3 +92,31 @@ export const galleryImages = [
   require("../images/gallery/gallery_7.jpg"),
   require("../images/gallery/gallery_8.jpg")
 ];
+
+export const partners = [
+  {
+    id: 1,
+    img: require("../images/partners/Генеральные партнеры.png"),
+    description: 'Генеральные партнеры'
+  },
+  {
+    id: 2,
+    img: require("../images/partners/фонд_Михаила_Прохорова.png"),
+    description: 'Генеральный партнер'
+  },
+  {
+    id: 3,
+    img: require("../images/partners/mosbrew.png"),
+    description: ''
+  },
+  {
+    id: 4,
+    img: require("../images/partners/sbtg.png"),
+    description: 'Онлайн транляции'
+  },
+  {
+    id: 5,
+    img: require("../images/partners/а_поговорить.png"),
+    description: ''
+  },
+]
