@@ -1,36 +1,19 @@
 import React from "react";
 import styles from "./Gallery.module.scss";
+import {galleryImages} from "../../utils/constants";
+import { Title } from "../Title/Title";
 
 const Gallery = () => {
   return (
     <section className={styles.gallery}>
-      <h2>Наши фотографиии</h2>
-      <ul>
-        <li>
-          <img src={require("./images/gallery_1.png")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_2.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_3.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_4.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_5.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_6.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_7.jpg")} alt="gallery" />
-        </li>
-        <li>
-          <img src={require("./images/gallery_8.jpg")} alt="gallery" />
-        </li>
-      </ul>
+      <Title text='Наши фотографиии' />
+        <ul>
+        {galleryImages.map((elem, index) => (
+            <li key={index}>
+                <img src={`${elem}`} alt='наша галлерея'/>
+            </li>
+        ))}
+        </ul>
     </section>
   );
 };

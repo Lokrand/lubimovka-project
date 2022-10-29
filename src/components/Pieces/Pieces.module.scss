@@ -2,27 +2,14 @@
   margin: 93px 0 123px;
 }
 
-.title {
-  width: 358px;
-  margin: 0 auto 48px;
-  padding-right: 348px;
-  font: 400 40px/40px "Neue Machina", sans-serif;
-  @media screen and (max-width: 989px) {
-    width: 369px;
-    padding: 0;
-    margin: 100px auto 32px;
-    font: 400 28px/32px "Neue Machina", sans-serif;
-  }
-}
-
 .pieces {
   display: flex;
   column-gap: 30px;
   max-width: 1320px;
-  margin: 0 auto;
+  margin: 48px auto 0;
   overflow-x: auto;
   overflow-y: hidden;
   @media screen and (max-width: 977px) {
-    margin: 0 0 0 25px;
+    margin: 32px 0 0 25px;
   }
 }

@@ -1,20 +1,23 @@
 @import "../../styles/constants.scss";
 
+.section {
+  margin-bottom: 129px;
+  @media screen and (max-width: 989px) {
+    margin-bottom: 100px;
+  }
+}
+
 .block {
   display: flex;
   width: 1440px;
-  margin: 0 auto;
+  margin: 75px auto 0;
   justify-content: center;
   column-gap: 30px;
   flex-wrap: wrap;
   row-gap: 30px;
-}
-
-.title {
-  width: 568px;
-  margin: 122px auto 75px;
-  padding-right: 148px;
-  font: 400 40px/40px "Neue Machina", "Inter", "sans-serif";
+  @media screen and (max-width: 989px) {
+    margin-top: 34px;
+  }
 }
 
 .items {
@@ -39,12 +42,6 @@
   .block {
     width: 415px;
     flex-direction: column;
-  }
-  .title {
-    width: 369px;
-    padding: 0;
-    margin: 100px auto 34px;
-    font: 400 28px/32px "Neue Machina", "Inter", "sans-serif";
   }
   .items {
     max-width: 415px;
