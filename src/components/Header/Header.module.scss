@@ -6,10 +6,21 @@
   width: 100%;
   display: flex;
   box-sizing: border-box;
+  padding: 10px 0 0 30px;
+}
+
+.navigation {
+  display: flex;
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
 }
 
 .line {
   border-bottom: 1px solid $color-text-black;
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
 }
 
 .icon {
@@ -20,7 +31,7 @@
   width: 119px;
   height: 31px;
   position: absolute;
-  margin-top: 94px;
+  margin: 36px 0 0 30px;
   background: none;
   display: flex;
   gap: 8px;
@@ -33,6 +44,13 @@
   transition: scale 0.1s linear;
   padding: 8px 0 10px 10px;
   box-sizing: border-box;
+  @media screen and (max-width: 767.98px) {
+    margin: 0;
+    top: 0;
+    left: 86px;
+    transform: translateY(25%);
+  }
+
   &:after {
     content: "";
     position: absolute;
@@ -63,5 +81,76 @@
   }
   &:active {
     scale: 1.1;
+  }
+}
+
+.burger {
+  display: none;
+  @media screen and (max-width: 767.98px) {
+    z-index: 10;
+    display: block;
+    position: fixed;
+    bottom: 128px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 72px;
+    height: 72px;
+    box-shadow: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    border: none;
+    background-color: $color-text-black;
+    overflow: hidden;
+
+    &_line {
+      width: 20px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      height: 2px;
+      background: white;
+      transform: translateY(-50%) translateX(50%);
+
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: white;
+        transition-duration: 0.3s, 0.3s;
+        transition-delay: 0.3s, 0s;
+      }
+
+      &::after {
+        bottom: -9px;
+        transition-property: bottom, transform;
+      }
+
+      &::before {
+        top: -8px;
+        transition-property: top, transform;
+      }
+
+      &_active {
+        background: none;
+        transition-delay: 0s, 0.3s;
+
+        &::after {
+          bottom: 0;
+          transform: rotate(-45deg);
+        }
+
+        &::before {
+          top: 0;
+          transform: rotate(45deg);
+        }
+      }
+    }
   }
 }

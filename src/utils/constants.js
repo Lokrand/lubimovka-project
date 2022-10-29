@@ -79,6 +79,9 @@ export const persons = [
 ];
 
 
+export const escape = "Escape";
+export const body = document.querySelector("body");
+
 export const galleryImages = [
   require("../images/gallery/gallery_1.png"),
   require("../images/gallery/gallery_2.jpg"),
