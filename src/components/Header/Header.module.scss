@@ -7,21 +7,21 @@
   display: flex;
   box-sizing: border-box;
   padding: 10px 0 0 30px;
-  @media screen and (max-width: 1252px) {
+  @media screen and (max-width: 1337px) {
     padding: 32px 0 0 24px;
   }
 }
 
 .navigation {
   display: flex;
-  @media screen and (max-width: 1252px) {
+  @media screen and (max-width: 1337px) {
     display: none;
   }
 }
 
 .line {
   border-bottom: 1px solid $color-text-black;
-  @media screen and (max-width: 1252px) {
+  @media screen and (max-width: 1337px) {
     display: none;
   }
 }
@@ -47,7 +47,7 @@
   transition: scale 0.1s linear;
   padding: 8px 0 10px 10px;
   box-sizing: border-box;
-  @media screen and (max-width: 1252px) {
+  @media screen and (max-width: 1337px) {
     margin: 0;
     top: 25px;
     left: 86px;
@@ -89,7 +89,7 @@
 
 .burger {
   display: none;
-  @media screen and (max-width: 1252px) {
+  @media screen and (max-width: 1337px) {
     z-index: 10;
     display: block;
     position: fixed;
@@ -156,3 +156,4 @@
     }
   }
 }
+
