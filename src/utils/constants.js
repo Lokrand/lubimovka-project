@@ -78,4 +78,45 @@ export const persons = [
   },
 ];
 
-export const blackArrow = require("../images/Arrow_for_button.svg").default;
+
+export const escape = "Escape";
+export const body = document.querySelector("body");
+
+export const galleryImages = [
+  require("../images/gallery/gallery_1.png"),
+  require("../images/gallery/gallery_2.jpg"),
+  require("../images/gallery/gallery_3.jpg"),
+  require("../images/gallery/gallery_4.jpg"),
+  require("../images/gallery/gallery_5.jpg"),
+  require("../images/gallery/gallery_6.jpg"),
+  require("../images/gallery/gallery_7.jpg"),
+  require("../images/gallery/gallery_8.jpg")
+];
+
+export const partners = [
+  {
+    id: 1,
+    img: require("../images/partners/Генеральные партнеры.png"),
+    description: 'Генеральные партнеры'
+  },
+  {
+    id: 2,
+    img: require("../images/partners/фонд_Михаила_Прохорова.png"),
+    description: 'Генеральный партнер'
+  },
+  {
+    id: 3,
+    img: require("../images/partners/mosbrew.png"),
+    description: ''
+  },
+  {
+    id: 4,
+    img: require("../images/partners/sbtg.png"),
+    description: 'Онлайн транляции'
+  },
+  {
+    id: 5,
+    img: require("../images/partners/а_поговорить.png"),
+    description: ''
+  },
+]

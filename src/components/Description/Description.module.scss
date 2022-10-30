@@ -1,0 +1,51 @@
+@import "../../vendor/fonts/fonts.scss";
+
+.section {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 120px;
+  row-gap: 65px;
+  margin: 0 auto;
+  margin-top: 59px;
+  @media screen and (max-width: 767.98px) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+  }
+}
+
+.title {
+  max-width: 450px;
+  font: 400 72px/70px "Neue Machina", sans-serif;
+  letter-spacing: -0.01em;
+  grid-column-start: 2;
+  @media screen and (max-width: 1023.98px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  @media screen and (max-width: 767.98px) {
+    padding: 0 24px;
+  }
+}
+
+.subtitle {
+  font: 400 28px/32px "Neue Machina", sans-serif;
+  letter-spacing: -0.01em;
+  padding-left: 180px;
+  @media screen and (max-width: 1023.98px) {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 86px;
+  }
+}
+
+.image {
+  max-width: 720px;
+  width: 100%;
+  @media screen and (max-width: 767.98px) {
+    max-width: fit-content;
+    margin-top: 14px;
+  }
+}

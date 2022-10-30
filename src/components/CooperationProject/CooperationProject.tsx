@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './CooperationProject.module.scss';
-import snowflake from './images/asterisk.svg';
+import snowflake from '../../images/cooperationProject/asterisk.svg';
 
 const CooperationProject = () => {
     return (
@@ -12,7 +12,7 @@ const CooperationProject = () => {
                     <p>Мы находимся в постоянном поиске режиссёров и актеров,
                         заинтересованных в постановке читок.
                     </p>
-                    <p>Пишите на more@lubimovka.ru</p>
+                    <span>Пишите на <a href="#" rel="noreferrer noopener">more@lubimovka.ru</a></span>
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
 import styles from "./Tab.module.scss";
 
-function Tab({ href, text }) {
+const Tab = ({ href, text }) => {
   return (
     <li className={styles.item}>
       <a href={href} className={styles.link} target="_blank" rel="noreferrer">
@@ -8,6 +8,6 @@ function Tab({ href, text }) {
       </a>
     </li>
   );
-}
+};
 
 export default Tab;
