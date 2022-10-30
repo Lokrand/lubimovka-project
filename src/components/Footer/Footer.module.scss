@@ -7,6 +7,7 @@
   grid-template-columns: min-content 1fr 1fr;
   grid-template-rows: repeat(3, min-content);
   @media screen and (max-width: 740px) {
+    justify-content: center;
     grid-template-columns: 320px;
     grid-template-rows: repeat(5, min-content);
   }
@@ -14,9 +15,9 @@
   img {
     grid-row: 1/-1;
     padding: 42px 82px 0 32px;
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 785px) {
       padding-right: 25px;
-    }
+    } 
     @media screen and (max-width: 740px) {
       width: 93px;
       grid-row: 1/2;
@@ -69,8 +70,8 @@
   &__links {
     display: flex;
     gap: 15px 80px;
-    @media screen and (max-width: 770px) {
-      column-gap: 25px;
+    @media screen and (max-width: 914px) {
+      column-gap: 15px;
     }
     @media screen and (max-width: 740px) {
       gap: 50px;
@@ -122,7 +123,12 @@
       gap: 0 32px;
       width: 390px;
       align-items: center;
+
       @media screen and (max-width: 740px) {
+        gap: 0 10px;
+      }
+
+        @media screen and (max-width: 740px) {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
