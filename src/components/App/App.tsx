@@ -24,8 +24,6 @@ function App() {
         <Pieces />
         <Persons />
         <YouTubePlayList/>
-        <Gallery />
-        <YouTubePlayList />
         <CooperationProject />
       </main>
       <Footer />
